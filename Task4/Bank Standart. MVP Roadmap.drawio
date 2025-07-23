@@ -1,0 +1,120 @@
+<mxfile host="Electron" agent="Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) draw.io/28.0.4 Chrome/138.0.7204.97 Electron/37.2.1 Safari/537.36" version="28.0.4">
+  <diagram name="С4. Контекст MVP" id="wwxciwSTnbf9BNwHL4AK">
+    <mxGraphModel dx="-499" dy="332" grid="0" gridSize="5" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="0" pageScale="1" pageWidth="1654" pageHeight="1169" background="#EEEEEE" math="0" shadow="0">
+      <root>
+        <mxCell id="QhgeqHeX9mWNZ2jChFRU-0" />
+        <mxCell id="QhgeqHeX9mWNZ2jChFRU-1" parent="QhgeqHeX9mWNZ2jChFRU-0" />
+        <mxCell id="zHPbZ5DkTfOrdUwyFfC7-0" value="&lt;div&gt;F.A.4&amp;nbsp;&lt;span style=&quot;background-color: transparent; color: light-dark(rgb(0, 0, 0), rgb(255, 255, 255));&quot;&gt;F.A.5&amp;nbsp;&lt;/span&gt;&lt;span style=&quot;background-color: transparent; color: light-dark(rgb(0, 0, 0), rgb(255, 255, 255));&quot;&gt;F.A.7&lt;/span&gt;&lt;/div&gt;&lt;div&gt;Загрузка данных о ставках по Депозитным продуктам Банка&lt;/div&gt;" style="rounded=1;whiteSpace=wrap;html=1;fillColor=#ffe6cc;strokeColor=#d79b00;" vertex="1" parent="QhgeqHeX9mWNZ2jChFRU-1">
+          <mxGeometry x="3116" y="1230" width="418" height="98" as="geometry" />
+        </mxCell>
+        <mxCell id="zHPbZ5DkTfOrdUwyFfC7-1" value="Выгрузка данных о клиентах в ФТП" style="rounded=1;whiteSpace=wrap;html=1;fillColor=#ffe6cc;strokeColor=#d79b00;" vertex="1" parent="QhgeqHeX9mWNZ2jChFRU-1">
+          <mxGeometry x="2922" y="1343" width="184" height="98" as="geometry" />
+        </mxCell>
+        <object label="«ИС»&lt;br&gt;&lt;b&gt;Корпоративная шина данных&lt;/b&gt;" placeholders="1" ds="ds" id="zHPbZ5DkTfOrdUwyFfC7-2">
+          <mxCell style="html=1;dropTarget=1;whiteSpace=wrap;rounded=1;fillColor=#f5f5f5;strokeColor=#666666;glass=0;shadow=0;fontSize=20;labelBackgroundColor=none;verticalAlign=top;arcSize=2;textShadow=0;container=1;rotatable=0;recursiveResize=0;fontColor=#333333;" vertex="1" parent="QhgeqHeX9mWNZ2jChFRU-1">
+            <mxGeometry x="2530" y="1347.5" width="355" height="89" as="geometry" />
+          </mxCell>
+        </object>
+        <mxCell id="zHPbZ5DkTfOrdUwyFfC7-3" value="" style="shape=module;jettyWidth=8;jettyHeight=4;rounded=1;" vertex="1" parent="zHPbZ5DkTfOrdUwyFfC7-2">
+          <mxGeometry x="1" width="20" height="20" relative="1" as="geometry">
+            <mxPoint x="-27" y="7" as="offset" />
+          </mxGeometry>
+        </mxCell>
+        <object label="«ИС»&lt;br&gt;&lt;b&gt;АБС Банка Стандарт&lt;/b&gt;" placeholders="1" ds="ds" id="zHPbZ5DkTfOrdUwyFfC7-11">
+          <mxCell style="html=1;dropTarget=1;whiteSpace=wrap;rounded=1;fillColor=#f5f5f5;strokeColor=#666666;glass=0;shadow=0;fontSize=20;labelBackgroundColor=none;verticalAlign=top;arcSize=2;textShadow=0;container=1;rotatable=0;recursiveResize=0;fontColor=#333333;" vertex="1" parent="QhgeqHeX9mWNZ2jChFRU-1">
+            <mxGeometry x="2530" y="1234" width="355" height="89" as="geometry" />
+          </mxCell>
+        </object>
+        <mxCell id="zHPbZ5DkTfOrdUwyFfC7-12" value="" style="shape=module;jettyWidth=8;jettyHeight=4;rounded=1;" vertex="1" parent="zHPbZ5DkTfOrdUwyFfC7-11">
+          <mxGeometry x="1" width="20" height="20" relative="1" as="geometry">
+            <mxPoint x="-27" y="7" as="offset" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="zHPbZ5DkTfOrdUwyFfC7-22" style="edgeStyle=orthogonalEdgeStyle;shape=connector;curved=0;rounded=0;jumpStyle=arc;jumpSize=10;orthogonalLoop=1;jettySize=auto;html=1;exitX=0.5;exitY=1;exitDx=0;exitDy=0;exitPerimeter=0;shadow=0;dashed=1;strokeColor=#4D4D4D;strokeWidth=2;align=center;verticalAlign=middle;arcSize=2;fontFamily=Helvetica;fontSize=18;fontColor=light-dark(#3b3b3b, #ededed);labelBorderColor=none;labelBackgroundColor=default;resizable=0;startSize=2;endArrow=classic;flowAnimation=0;" edge="1" parent="zHPbZ5DkTfOrdUwyFfC7-11">
+          <mxGeometry relative="1" as="geometry">
+            <mxPoint x="713" y="543" as="sourcePoint" />
+            <mxPoint x="713" y="543" as="targetPoint" />
+          </mxGeometry>
+        </mxCell>
+        <object label="«ИС»&lt;br&gt;&lt;b&gt;Фабрика транзакционных продуктов&lt;/b&gt;" placeholders="1" ds="ds" id="zHPbZ5DkTfOrdUwyFfC7-26">
+          <mxCell style="html=1;dropTarget=1;whiteSpace=wrap;rounded=1;glass=0;shadow=0;fontSize=20;labelBackgroundColor=none;verticalAlign=top;arcSize=2;textShadow=0;container=1;rotatable=0;recursiveResize=0;fillColor=#f5f5f5;fontColor=#333333;strokeColor=#666666;" vertex="1" parent="QhgeqHeX9mWNZ2jChFRU-1">
+            <mxGeometry x="2528" y="1461" width="355" height="89" as="geometry" />
+          </mxCell>
+        </object>
+        <mxCell id="zHPbZ5DkTfOrdUwyFfC7-27" value="" style="shape=module;jettyWidth=8;jettyHeight=4;rounded=1;" vertex="1" parent="zHPbZ5DkTfOrdUwyFfC7-26">
+          <mxGeometry x="1" width="20" height="20" relative="1" as="geometry">
+            <mxPoint x="-27" y="7" as="offset" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="zHPbZ5DkTfOrdUwyFfC7-31" value="&lt;div&gt;&lt;span style=&quot;background-color: transparent; color: light-dark(rgb(0, 0, 0), rgb(255, 255, 255));&quot;&gt;F.A.7&lt;/span&gt;&lt;/div&gt;&lt;div&gt;Выгрузка данных о Клиентах&lt;/div&gt;" style="rounded=1;whiteSpace=wrap;html=1;fillColor=#ffe6cc;strokeColor=#d79b00;" vertex="1" parent="QhgeqHeX9mWNZ2jChFRU-1">
+          <mxGeometry x="2920" y="1234" width="184" height="90" as="geometry" />
+        </mxCell>
+        <mxCell id="zHPbZ5DkTfOrdUwyFfC7-32" value="&lt;div&gt;&lt;div&gt;F.FT.2&lt;span style=&quot;white-space:pre&quot;&gt;&#x9;&lt;/span&gt;Интеграция: загрузка актуальных депозитных ставок из АБС&lt;/div&gt;&lt;/div&gt;&lt;div&gt;&lt;br&gt;&lt;/div&gt;" style="rounded=1;whiteSpace=wrap;html=1;fillColor=#ffe6cc;strokeColor=#d79b00;" vertex="1" parent="QhgeqHeX9mWNZ2jChFRU-1">
+          <mxGeometry x="3278" y="1459" width="231" height="98" as="geometry" />
+        </mxCell>
+        <mxCell id="zHPbZ5DkTfOrdUwyFfC7-35" value="&lt;div&gt;&lt;div&gt;&lt;div&gt;F.FT.6&lt;span style=&quot;white-space:pre&quot;&gt;&#x9;&lt;/span&gt;Интеграция: поддержать возможность разовой миграции данных о Клиентах из АБС&lt;/div&gt;&lt;div&gt;F.FT.5&lt;span style=&quot;white-space:pre&quot;&gt;&#x9;&lt;/span&gt;Интеграция: поддержать возможность приема информации от АБС по данным о Клиентах&lt;/div&gt;&lt;/div&gt;&lt;/div&gt;" style="rounded=1;whiteSpace=wrap;html=1;fillColor=#ffe6cc;strokeColor=#d79b00;" vertex="1" parent="QhgeqHeX9mWNZ2jChFRU-1">
+          <mxGeometry x="2922" y="1459" width="342" height="98" as="geometry" />
+        </mxCell>
+        <mxCell id="zHPbZ5DkTfOrdUwyFfC7-36" value="&lt;div&gt;&lt;div&gt;&lt;div&gt;&lt;div&gt;F.FT.1&lt;span style=&quot;white-space:pre&quot;&gt;&#x9;&lt;/span&gt;Поддержать процесс расчета персонализированных ставок по депозитным продуктам&lt;/div&gt;&lt;div&gt;F.FT.3&lt;span style=&quot;white-space:pre&quot;&gt;&#x9;&lt;/span&gt;Поддержать функциональность для бизнес-пользователей Банка по отображению и контролю процесса расчета персонализированных ставок&lt;/div&gt;&lt;/div&gt;&lt;/div&gt;&lt;/div&gt;&lt;div&gt;&lt;br&gt;&lt;/div&gt;" style="rounded=1;whiteSpace=wrap;html=1;fillColor=#ffe6cc;strokeColor=#d79b00;" vertex="1" parent="QhgeqHeX9mWNZ2jChFRU-1">
+          <mxGeometry x="3523" y="1456.5" width="418" height="98" as="geometry" />
+        </mxCell>
+        <mxCell id="zHPbZ5DkTfOrdUwyFfC7-37" value="&lt;div&gt;&lt;div&gt;&lt;div&gt;&lt;div&gt;&lt;div&gt;F.FT.4&lt;span style=&quot;white-space:pre&quot;&gt;&#x9;&lt;/span&gt;Интеграция: поддержать возможность отдачи рассчитанных персонализированных ставок в ДБО по ее запросу&lt;/div&gt;&lt;/div&gt;&lt;/div&gt;&lt;/div&gt;&lt;/div&gt;&lt;div&gt;&lt;br&gt;&lt;/div&gt;" style="rounded=1;whiteSpace=wrap;html=1;fillColor=#ffe6cc;strokeColor=#d79b00;" vertex="1" parent="QhgeqHeX9mWNZ2jChFRU-1">
+          <mxGeometry x="3955" y="1456.5" width="418" height="98" as="geometry" />
+        </mxCell>
+        <object label="«ИС»&lt;br&gt;&lt;b&gt;Интернет Банк (ДБО)&lt;/b&gt;" placeholders="1" ds="ds" id="zHPbZ5DkTfOrdUwyFfC7-38">
+          <mxCell style="html=1;dropTarget=1;whiteSpace=wrap;rounded=1;fillColor=#f5f5f5;strokeColor=#666666;glass=0;shadow=0;fontSize=20;labelBackgroundColor=none;verticalAlign=top;arcSize=2;textShadow=0;container=1;rotatable=0;recursiveResize=0;fontColor=#333333;" vertex="1" parent="QhgeqHeX9mWNZ2jChFRU-1">
+            <mxGeometry x="2526" y="1579" width="355" height="89" as="geometry" />
+          </mxCell>
+        </object>
+        <mxCell id="zHPbZ5DkTfOrdUwyFfC7-39" value="" style="shape=module;jettyWidth=8;jettyHeight=4;rounded=1;" vertex="1" parent="zHPbZ5DkTfOrdUwyFfC7-38">
+          <mxGeometry x="1" width="20" height="20" relative="1" as="geometry">
+            <mxPoint x="-27" y="7" as="offset" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="zHPbZ5DkTfOrdUwyFfC7-46" value="&lt;div&gt;&lt;div&gt;&lt;div&gt;F.IB.2&lt;span style=&quot;white-space:pre&quot;&gt;&#x9;&lt;/span&gt;Интеграция: загрузка актуальных депозитных ставок из АБС&lt;/div&gt;&lt;/div&gt;&lt;/div&gt;&lt;div&gt;&lt;br&gt;&lt;/div&gt;" style="rounded=1;whiteSpace=wrap;html=1;fillColor=#ffe6cc;strokeColor=#d79b00;" vertex="1" parent="QhgeqHeX9mWNZ2jChFRU-1">
+          <mxGeometry x="3232" y="1574.5" width="197" height="98" as="geometry" />
+        </mxCell>
+        <mxCell id="zHPbZ5DkTfOrdUwyFfC7-47" value="&lt;div&gt;Выгрузка данных о ставках из АБС&lt;/div&gt;" style="rounded=1;whiteSpace=wrap;html=1;fillColor=#ffe6cc;strokeColor=#d79b00;" vertex="1" parent="QhgeqHeX9mWNZ2jChFRU-1">
+          <mxGeometry x="3116" y="1343" width="228" height="98" as="geometry" />
+        </mxCell>
+        <mxCell id="zHPbZ5DkTfOrdUwyFfC7-48" value="&lt;div&gt;Интеграция ФТП с ДБО по персональным ставкам&lt;/div&gt;" style="rounded=1;whiteSpace=wrap;html=1;fillColor=#ffe6cc;strokeColor=#d79b00;" vertex="1" parent="QhgeqHeX9mWNZ2jChFRU-1">
+          <mxGeometry x="3953" y="1343" width="228" height="98" as="geometry" />
+        </mxCell>
+        <mxCell id="zHPbZ5DkTfOrdUwyFfC7-49" value="&lt;div&gt;&lt;div&gt;&lt;br&gt;&lt;/div&gt;&lt;div&gt;F.IB.4&lt;span style=&quot;white-space:pre&quot;&gt;&#x9;&lt;/span&gt;Интеграция: поддержать возможность отсылки OTP для Клиента при открытии депозитного продукта&lt;/div&gt;&lt;/div&gt;&lt;div&gt;&lt;br&gt;&lt;/div&gt;" style="rounded=1;whiteSpace=wrap;html=1;fillColor=#ffe6cc;strokeColor=#d79b00;" vertex="1" parent="QhgeqHeX9mWNZ2jChFRU-1">
+          <mxGeometry x="3434" y="1574.5" width="206" height="98" as="geometry" />
+        </mxCell>
+        <mxCell id="zHPbZ5DkTfOrdUwyFfC7-50" value="&lt;div&gt;&lt;div&gt;&lt;br&gt;&lt;/div&gt;&lt;div&gt;F.IB.1&lt;span style=&quot;white-space:pre&quot;&gt;&#x9;&lt;/span&gt;Интеграция: поддержать передачу данных о заполненных Заявках на депозит в АБС&lt;/div&gt;&lt;/div&gt;" style="rounded=1;whiteSpace=wrap;html=1;fillColor=#ffe6cc;strokeColor=#d79b00;" vertex="1" parent="QhgeqHeX9mWNZ2jChFRU-1">
+          <mxGeometry x="3665" y="1574.5" width="209" height="98" as="geometry" />
+        </mxCell>
+        <mxCell id="zHPbZ5DkTfOrdUwyFfC7-51" value="&lt;div&gt;&lt;div&gt;&lt;div&gt;&lt;div&gt;F.IB.3&lt;span style=&quot;white-space:pre&quot;&gt;&#x9;&lt;/span&gt;Поддержать функциональность Клиента Банка по выбору параметров и открытию депозитного продукта, в том числе с применением персональных ставок&lt;/div&gt;&lt;/div&gt;&lt;/div&gt;&lt;/div&gt;" style="rounded=1;whiteSpace=wrap;html=1;fillColor=#ffe6cc;strokeColor=#d79b00;" vertex="1" parent="QhgeqHeX9mWNZ2jChFRU-1">
+          <mxGeometry x="2922" y="1574.5" width="307" height="98" as="geometry" />
+        </mxCell>
+        <mxCell id="zHPbZ5DkTfOrdUwyFfC7-52" value="&lt;div&gt;&lt;div&gt;&lt;br&gt;&lt;/div&gt;&lt;div&gt;F.IB.5&lt;span style=&quot;white-space:pre&quot;&gt;&#x9;&lt;/span&gt;Интеграция: запрос персональных предрассчитанных депозитных ставок из Фабрики транзакционных продуктов&lt;/div&gt;&lt;/div&gt;" style="rounded=1;whiteSpace=wrap;html=1;fillColor=#ffe6cc;strokeColor=#d79b00;" vertex="1" parent="QhgeqHeX9mWNZ2jChFRU-1">
+          <mxGeometry x="3953" y="1561" width="307" height="98" as="geometry" />
+        </mxCell>
+        <mxCell id="zHPbZ5DkTfOrdUwyFfC7-53" value="&lt;div&gt;Интеграция ДБО с АБС по Заявкам&lt;/div&gt;" style="rounded=1;whiteSpace=wrap;html=1;fillColor=#ffe6cc;strokeColor=#d79b00;" vertex="1" parent="QhgeqHeX9mWNZ2jChFRU-1">
+          <mxGeometry x="3661" y="1343" width="228" height="98" as="geometry" />
+        </mxCell>
+        <mxCell id="zHPbZ5DkTfOrdUwyFfC7-54" value="&lt;div&gt;F.A.6&lt;span style=&quot;white-space:pre&quot;&gt;&#x9;&lt;/span&gt;Функциональность: обеспечить возможность реализации процесса &quot;Создание, обработка и согласование Заявки на депозит&quot;&lt;/div&gt;&lt;div&gt;&lt;br&gt;&lt;/div&gt;" style="rounded=1;whiteSpace=wrap;html=1;fillColor=#ffe6cc;strokeColor=#d79b00;" vertex="1" parent="QhgeqHeX9mWNZ2jChFRU-1">
+          <mxGeometry x="3558" y="1229.5" width="418" height="98" as="geometry" />
+        </mxCell>
+        <object label="MVP Этап 1 (6 мес)" placeholders="1" ds="ds" id="zHPbZ5DkTfOrdUwyFfC7-55">
+          <mxCell style="html=1;dropTarget=1;whiteSpace=wrap;rounded=1;fillColor=#f5f5f5;strokeColor=#666666;glass=0;shadow=0;fontSize=34;labelBackgroundColor=none;verticalAlign=top;arcSize=2;textShadow=0;container=1;rotatable=0;recursiveResize=0;fontColor=#333333;fontStyle=1" vertex="1" parent="QhgeqHeX9mWNZ2jChFRU-1">
+            <mxGeometry x="2923" y="1109" width="1454" height="89" as="geometry" />
+          </mxCell>
+        </object>
+        <mxCell id="zHPbZ5DkTfOrdUwyFfC7-56" value="" style="shape=module;jettyWidth=8;jettyHeight=4;rounded=1;" vertex="1" parent="zHPbZ5DkTfOrdUwyFfC7-55">
+          <mxGeometry x="1" width="20" height="20" relative="1" as="geometry">
+            <mxPoint x="-27" y="7" as="offset" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="zHPbZ5DkTfOrdUwyFfC7-57" style="edgeStyle=orthogonalEdgeStyle;shape=connector;curved=0;rounded=0;jumpStyle=arc;jumpSize=10;orthogonalLoop=1;jettySize=auto;html=1;exitX=0.5;exitY=1;exitDx=0;exitDy=0;exitPerimeter=0;shadow=0;dashed=1;strokeColor=#4D4D4D;strokeWidth=2;align=center;verticalAlign=middle;arcSize=2;fontFamily=Helvetica;fontSize=18;fontColor=light-dark(#3b3b3b, #ededed);labelBorderColor=none;labelBackgroundColor=default;resizable=0;startSize=2;endArrow=classic;flowAnimation=0;" edge="1" parent="zHPbZ5DkTfOrdUwyFfC7-55">
+          <mxGeometry relative="1" as="geometry">
+            <mxPoint x="713" y="543" as="sourcePoint" />
+            <mxPoint x="713" y="543" as="targetPoint" />
+          </mxGeometry>
+        </mxCell>
+      </root>
+    </mxGraphModel>
+  </diagram>
+</mxfile>
